@@ -1,0 +1,48 @@
+header{
+	background: #2d3047;
+}
+header nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+header nav .menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 20px;
+}
+header nav .menu img{
+	width: 50px;
+}
+header nav .menu .link{
+
+	width: 30px;
+}
+header nav .menu .link{
+display: flex;
+
+}
+
+header nav .menu .link a{
+	padding: 16px 12px;
+	color: #fff;
+	text-decoration: none;
+	border-bottom:6px solid transparent;
+	transition: border 3s ease; 
+	
+}
+header nav .menu .link a:hover{
+	border-bottom-color: #e84855;
+}
+header nav .menu .link a.active {
+	border-bottom-color: #e84855; 
+}
+header nav .auth button{
+	padding: 21px 20px;
+	border:none;
+	background: #e84855;
+	color: #fff;
+}
